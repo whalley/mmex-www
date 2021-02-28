@@ -1,4 +1,4 @@
 +++
-title = "About Syna"
-date = "2017-10-05"
+title = "About Money Manager Ex"
+date = "2021-02-28"
 +++

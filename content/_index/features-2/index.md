@@ -1,5 +1,5 @@
 +++
 fragment = "items"
-weight = 150
+weight = 101
 background = "light"
 +++

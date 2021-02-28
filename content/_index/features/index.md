@@ -4,5 +4,5 @@ weight = 100
 background = "light"
 
 title = "Features"
-subtitle= "Syna comes with a lot of features"
+subtitle= "Money Manager Ex comes with a full set of features."
 +++

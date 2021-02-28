@@ -9,9 +9,9 @@ menu_title = "Further Resources"
 
 [asset]
   image = "logo.svg"
-  text = "Logo Subtext"
+  text = "Money Managed Ex"
 +++
 
-#### Syna Theme
+#### Money Manager Ex
 
-Highly customizable open source theme for Hugo based static websites
+Free, open-source, cross-platform, easy-to-use personal finance software

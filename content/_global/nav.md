@@ -8,17 +8,17 @@ search = true
 sticky = true
 
 [breadcrumb]
-  display = true # Default value is false
+  display = false # Default value is false
   #level = 0 # Default is 1
   background = "light"
 
 # Branding options
 [asset]
   image = "logo.svg"
-  text = "Syna"
+  text = "Money Manager Ex"
 
 [repo_button]
-  url = "https://github.com/okkur/syna"
+  url = "https://github.com/moneymanagerex/moneymanagerex"
   text = "Star" # default: "Star"
   icon = "fab fa-github" # defaults: "fab fa-github"
 +++

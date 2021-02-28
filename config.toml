@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://whalley.github.io/mmex-www/"
+# baseurl = "https://whalley.github.io/mmex-www/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Money Maanger Ex"
@@ -26,7 +26,7 @@ googleAnalytics = ""
      unsafe = true
 
 [params]
-  name = "Okkur Labs"
+  name = "Money Manager Ex"
   description = "Open Source Theme for your next project"
   debug = true
   unsafeEvents = true # Default is false. Enables ?event=type format of url events.
@@ -57,7 +57,7 @@ googleAnalytics = ""
     pro = false
 
   [params.colors]
-    primary = "#00838F"
+    primary = "#006633"
     secondary = "#868e96"
     success = "#008f54"
     info = "#00c9dc"
@@ -77,34 +77,49 @@ googleAnalytics = ""
   weight = 10
 
 [[menu.main]]
-  url = "/fragments"
-  name = "Fragments"
-  weight = 20
+  url = "/news"
+  name = "News"
+  weight = 11
 
 [[menu.main]]
-  url = "/docs"
-  name = "Docs"
-  weight = 30
+  url = "/features"
+  name = "Features"
+  weight = 12
+
+[[menu.main]]
+  url = "/download"
+  name = "Download"
+  weight = 13
+
+[[menu.main]]
+  url = "/support"
+  name = "Support"
+  weight = 14
+
+[[menu.main]]
+  url = "/development"
+  name = "Development"
+  weight = 15
 
 [[menu.main]]
   url = "/about"
   name = "About"
-  weight = 40
+  weight = 16
 
 [[menu.footer]]
-  url = "https://syna.okkur.org/demo"
+  url = "https://www.moneymanagerex.com/support"
   name = "Getting Started"
   weight = 10
 
 [[menu.footer]]
-  url = "https://about.okkur.org/"
-  name = "About Okkur Labs"
-  weight = 20
+  url = "https://www.moneymanagerex.com/about"
+  name = "About Money Manager Ex"
+  weight = 11
 
 [[menu.footer_social]]
   weight = 30
   name = "github"
-  url = "https://git.okkur.org/syna"
+  url = "https://github.com/moneymanagerex/moneymanagerex"
   pre = "fab fa-github fa-stack-2x"
 
 [[menu.copyright_footer]]
