@@ -1,5 +1,5 @@
 # Site settings
-# baseurl = "https://whalley.github.io/mmex-www/"
+baseurl = "https://whalley.github.io/mmex-www/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Money Maanger Ex"
