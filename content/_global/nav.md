@@ -17,8 +17,4 @@ sticky = true
   image = "logo.svg"
   text = "Money Manager Ex"
 
-[repo_button]
-  url = "https://github.com/moneymanagerex/moneymanagerex"
-  text = "Star" # default: "Star"
-  icon = "fab fa-github" # defaults: "fab fa-github"
 +++

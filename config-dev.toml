@@ -1,14 +1,16 @@
 # Site settings
-baseurl = "https://whalley.github.io/mmex-www/"
+baseurl = "/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Money Maanger Ex"
+title = "Okkur - Syna"
 theme = "syna"
-themesDir = "themes"
-enableGitInfo = false
+themesDir = "../.."
+enableGitInfo = true
 version = "0.17.4"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
-#ignorefiles = [ "content/dev/.*" ]
+
+RelativeURLs = true
+CanonifyURLs = true
 
 # Google Analytics tracking
 googleAnalytics = ""
@@ -17,8 +19,8 @@ googleAnalytics = ""
   home = ["HTML", "JSON"]
 
 [frontmatter]
-  date = ["date", "lastmod"]
-  lastmod = ["lastmod", ":git", "date"]
+date = ["date", "lastmod"]
+lastmod = ["lastmod", ":git", "date"]
 
 [markup]
   [markup.goldmark]
@@ -26,8 +28,8 @@ googleAnalytics = ""
      unsafe = true
 
 [params]
-  name = "Money Manager Ex"
-  description = "Free, open-source, cross-platform, easy-to-use personal finance software"
+  name = "Okkur Labs"
+  description = "Open Source Theme for your next project"
   debug = true
   unsafeEvents = true # Default is false. Enables ?event=type format of url events.
 
@@ -57,7 +59,7 @@ googleAnalytics = ""
     pro = false
 
   [params.colors]
-    primary = "#006633"
+    primary = "#00838F"
     secondary = "#868e96"
     success = "#008f54"
     info = "#00c9dc"
@@ -77,49 +79,64 @@ googleAnalytics = ""
   weight = 10
 
 [[menu.main]]
-  url = "/news"
-  name = "News"
-  weight = 11
+  url = "/fragments"
+  name = "Fragments"
+  weight = 20
 
 [[menu.main]]
-  url = "/features"
-  name = "Features"
-  weight = 12
+  url = "/docs"
+  name = "Docs"
+  weight = 30
 
 [[menu.main]]
-  url = "/download"
-  name = "Download"
-  weight = 13
+  url = "/dev"
+  name = "Dev Section"
+  weight = 35
+  identifier = "dev"
 
 [[menu.main]]
-  url = "/support"
-  name = "Support"
-  weight = 14
+  url = "/dev"
+  name = "Dev Section"
+  weight = 10
+  parent = "dev"
 
 [[menu.main]]
-  url = "/development"
-  name = "Development"
-  weight = 15
+  url = "/dev/colors"
+  name = "Colors"
+  weight = 20
+  parent = "dev"
+
+[[menu.main]]
+  url = "/dev/blog"
+  name = "Blog"
+  weight = 30
+  parent = "dev"
+
+[[menu.main]]
+  url = "/dev/events"
+  name = "Events"
+  weight = 40
+  parent = "dev"
 
 [[menu.main]]
   url = "/about"
   name = "About"
-  weight = 16
+  weight = 40
 
 [[menu.footer]]
-  url = "https://www.moneymanagerex.com/support"
+  url = "https://syna.okkur.org/demo"
   name = "Getting Started"
   weight = 10
 
 [[menu.footer]]
-  url = "https://www.moneymanagerex.com/about"
-  name = "About Money Manager Ex"
-  weight = 11
+  url = "https://about.okkur.org/"
+  name = "About Okkur Labs"
+  weight = 20
 
 [[menu.footer_social]]
   weight = 30
   name = "github"
-  url = "https://github.com/moneymanagerex/moneymanagerex"
+  url = "https://git.okkur.org/syna"
   pre = "fab fa-github fa-stack-2x"
 
 [[menu.copyright_footer]]
